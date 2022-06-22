@@ -1,6 +1,5 @@
-# copyright 2020-21 @Mohamed Rizad
-# Telegram @riz4d
-# Instagram @riz.4d
+# 2022 Epic Bots
+
 import telebot
 import requests
 from telebot.types import InlineKeyboardButton
@@ -21,14 +20,14 @@ while True:
         def start_message(message):
             bot.send_message(message.chat.id,
 '''
-Hey.,
-Welcome to MysteryMail Bot
+Hey.🔥,
+Welcome to Epic Temp Mail Bot💌
 Usage:
-➪ To Generate emails by clicking on the button "Generate email"
-➪ To refresh your inbox click on the button "Refresh inbox"
-➪ After a new letter arrives, you will see a button with a subject line, click on this button to read the message.
+➪🔥 To Generate emails by clicking on the button "Generate email"
+➪🔥 To refresh your inbox click on the button "Refresh inbox"
+➪🔥 After a new letter arrives, you will see a button with a subject line, click on this button to read the message.
                               
-Dev : @riz4d
+🔥Developers @EpicBotsSl
 ''',
                              reply_markup=keyboard)
 
@@ -48,16 +47,16 @@ Dev : @riz4d
             elif message.text.lower() == 'about':
                 bot.send_message(message.chat.id,
 '''
-What is Mystery Mail?
+⚡What is Epic Temp Mail 💌?
 
-- it is a free email service that allows to receive email at a temporary address that self-destructed after a certain time elapses. It is also known by names like tempmail, 10minutemail, 10minmail, throwaway email, fake-mail , fake email generator, burner mail or trash-mail
+- it is a free🔥 email service that allows to receive email at a temporary address that self-destructed after a certain time elapses. It is also known by names like tempmail, 10minutemail, 10minmail, throwaway email, fake-mail , fake email generator, burner mail or trash-mail
 
-How Mystery Mail Become Safer You?
+🚀How Epic Temp Mail Become Safer You?⚡
 
 - Using the temporary mail allows you to completely protect your real mailbox against the loss of personal information. Your temporary e-mail address is completely anonymous. Your details: information about your person and users with whom you communicate, IP-address, e-mail address are protected and completely confidential.
 
-➪ Bot Name : MysteryMail
-➪ Author : @riz4d
+➪ Bot Name : Epic | Temp Mail
+➪ Creator : @NA_VA_N_JA_NA1
 ➪ Language : Python''')
             elif message.text.lower()[14] == "[":
                 email = message.text.lower()[15:message.text.lower().find("]")]
@@ -84,7 +83,7 @@ How Mystery Mail Become Safer You?
                                              reply_markup=bkeyboard)
                             count = i + 1
                         bot.send_message(message.chat.id, "Here " + str(
-                            count) + " message we're found\nClick on the below button to read the message\n\n Further Queries @riz4d")
+                            count) + " message we're found\nClick on the below button to read the message\n\n Further Queries @NA_VA_N_JA_NA1")
                     else:
                         bot.send_message(message.chat.id, 'Nothing found', reply_markup=bkeyboard)
                 except BaseException:
@@ -108,4 +107,4 @@ How Mystery Mail Become Safer You?
     except BaseException:
         pass
         
-# Stay tuned for more : Instagram @riz.4d
+#Epic Developers 2022© </ᴇᴘɪᴄ ʙᴏᴛs <s/ʟ>🇱🇰
